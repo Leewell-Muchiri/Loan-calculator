@@ -1,4 +1,5 @@
 import React from 'react'
+import "./LoanCalculator.css"
 
 const LoanCalculator = () => {
   return (
@@ -39,7 +40,11 @@ const LoanCalculator = () => {
                 <div>
                     <input type="number" name="startDate" placeholder='0' />
                 </div>
-            </div>              
+            </div> 
+
+            <div className='form-action'>
+                <input type='submit' value="Calculate" className='calculate-button' />
+            </div>             
         </form>
     </div>
   )

@@ -1,0 +1,49 @@
+.calc-container {
+    font-size: 18px;
+    width: 600px;
+    text-align: left;
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    padding: 2px;
+}
+
+.form-action {
+    text-align: center;
+}
+
+.calculate-button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: opacity .15s ease-in-out, background-color .2s ease-in-out;
+}
+
+.calculate-button:hover {
+    background-color: darkgray;
+}
+
+.form-input {
+    position: relative;
+}
+
+.form-input input, .form-action input {
+    width: 200px;
+    border-radius: 3px;
+    border: 0px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.form-input input {
+    height: 32px;
+}
+
+.form-action input {
+    font-weight: 600;
+    line-height: 40px;
+}
